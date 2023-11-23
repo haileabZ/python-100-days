@@ -2,8 +2,6 @@
 from random import randint
 import sys
 
-EASY_LEVEL_TURNS = 10
-HARD_LEVEL_TURNS = 5
 logo = """
 
   / _ \_   _  ___  ___ ___  /__   \ |__   ___    /\ \ \_   _ _ __ ___ | |__   ___ _ __ 

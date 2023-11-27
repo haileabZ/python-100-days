@@ -39,11 +39,11 @@ def report():
 
 
 def pay():
-    quarters=float(input("How many quarters?: "))
-    dimes=float(input("How many dimes?: "))
-    nickles=float(input("How many nickles?: "))
-    pennies=float(input("How many pennies?: "))
-    total = quarters * 0.25 + dimes * 0.1 + nickles * 0.05 + pennies * 0.01
+    print("Please enter coin!")
+    total=int(input("How many quarters?: ")) * 0.25
+    total+=int(input("How many dimes?: ")) * 0.1
+    total+=int(input("How many nickles?: ")) * 0.05
+    total+=int(input("How many pennies?: ")) * 0.01
     return total
 
 
@@ -61,7 +61,7 @@ def latte():
             print(f"Here your change{change}")
             print("Here you have your latte!")
         else:
-            print("you don't have enough money")
+            print("The machine don't have enough money")
     else:
         print("you don't have enough resource")
 
@@ -75,11 +75,11 @@ def espresso():
             resources["water"] -= Menu["espresso"]["ingredients"]["water"]
             resources["coffee"] -= Menu["espresso"]["ingredients"]["coffee"]
             print(f"Here your change{change}")
-            print("Here you have your latte!")
+            print("Here you have your espresso!")
         else:
             print("you don't have enough money")
     else:
-        print("you don't have enough resource")
+        print("The machine don't have enough money")
 def cappuccino():
     global money
     if (resources["water"] >= 250 and resources["coffee"] >= 24) \
@@ -92,11 +92,11 @@ def cappuccino():
             resources["coffee"] -= Menu["cappuccino"]["ingredients"]["coffee"]
             resources["milk"] -= Menu["cappuccino"]["ingredients"]["milk"]
             print(f"Here your change{change}")
-            print("Here you have your latte!")
+            print("Here you have your cappuccino!")
         else:
             print("you don't have enough money")
     else:
-        print("you don't have enough resource")
+        print("The machine don't have enough money")
 
 
 while True:

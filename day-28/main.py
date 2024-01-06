@@ -43,7 +43,7 @@ def start():
 
 
 
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
+# ---------------------------- COUNTDOWN MECHANISM --------------------------------- #
 
 def count_down(count):
       global timer

@@ -4,8 +4,10 @@ import smtplib
 import datetime as dt
 from random import choice
 
-MY_EMAIL = "etest8915@gmail.com"
-MY_PASSWORD = "yasw zogp trvv yluf"
+# your email account
+MY_EMAIL = "....@gmail.com"
+# your app password 
+MY_PASSWORD = "..." 
 
 today = dt.datetime.now().weekday()
 

@@ -1,4 +1,4 @@
-
+# monday motivation sender app
 
 import smtplib
 import datetime as dt

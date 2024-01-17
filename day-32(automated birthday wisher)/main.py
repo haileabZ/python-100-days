@@ -5,10 +5,10 @@ import smtplib
 import datetime as dt
 import pandas as pd
 from random import choice
-import smtplib
 
-MY_PASSOWRD = "feda ovjj wpge fiku"
-MY_EMAIL = "etest8915@gmail.com"
+
+MY_PASSOWRD = "your password"
+MY_EMAIL = "abc@gmail.com"
 
 # 1. Update the birthdays.csv
 
@@ -26,7 +26,7 @@ file = pd.read_csv("birthdays.csv").to_dict(orient="records")
 # 3. If step 2 is true, pick a random letter from letter templates and replace the [NAME] with the person's actual name from birthdays.csv
 
 for d in file:
-    if d["year"] == year and d["month"] == month and d["day"] == day:
+    if  d["month"] == month and d["day"] == day:
         rand_letter = choice(["letter_1.txt", "Letter_2.txt", "letter_3.txt"])
         with open(f"letter_templates/{rand_letter}", "r") as f:
             text_to_send = f.read()

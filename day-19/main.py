@@ -32,5 +32,4 @@ turtle.onkey(clear_drawing,"c")
 
 
 
-
 screen.exitonclick()

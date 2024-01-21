@@ -30,6 +30,5 @@ turtle.onkey(move_clockwise,"d")
 turtle.onkey(clear_drawing,"c")
 
 
-
 screen.exitonclick()
 

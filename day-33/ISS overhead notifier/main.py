@@ -8,7 +8,9 @@ MY_LAT = 6.020605
 # Your longitude
 MY_LONG = 37.564110
 
-MY_PASSOWRD = "..."
+# your email app password
+MY_PASSOWRD = "..." 
+# your email adress
 MY_EMAIL = "..."
 
 def is_overhead():

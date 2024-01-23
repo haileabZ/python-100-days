@@ -8,8 +8,8 @@ MY_LAT = 6.020605
 # Your longitude
 MY_LONG = 37.564110
 
-MY_PASSOWRD = "feda ovjj wpge fiku"
-MY_EMAIL = "etest8915@gmail.com"
+MY_PASSOWRD = "..."
+MY_EMAIL = "..."
 
 def is_overhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")

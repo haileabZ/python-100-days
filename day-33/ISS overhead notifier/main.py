@@ -1,3 +1,5 @@
+# API exercise 
+
 import smtplib
 import requests
 from datetime import datetime

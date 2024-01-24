@@ -20,7 +20,6 @@ def is_overhead():
     response.raise_for_status()
     data = response.json()
     
-
     iss_latitude = float(data["iss_position"]["latitude"])
     iss_longitude = float(data["iss_position"]["longitude"])
 

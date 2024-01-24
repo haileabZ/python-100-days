@@ -1,4 +1,4 @@
-# API exercise 
+# API exercise  
 
 import smtplib
 import requests

@@ -8,6 +8,7 @@ name = input("enter your name").upper()
 letters_in_name = [letter for letter in name]
 
 data = read_csv("nato_phonetic_alphabet.csv")
+
 codes = data["code"].tolist()
 all_letters = data["letter"].tolist()
 

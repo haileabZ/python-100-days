@@ -19,4 +19,3 @@ letter_word_join = [dict_form[letter] for letter in letters_in_name ]
 
 print(letter_word_join)
 
-

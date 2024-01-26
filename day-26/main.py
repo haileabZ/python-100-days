@@ -18,3 +18,4 @@ dict_form = {all_letters[i]: codes[i] for i in range(26)}
 letter_word_join = [dict_form[letter] for letter in letters_in_name ]
 
 print(letter_word_join)
+

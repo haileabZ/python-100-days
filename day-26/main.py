@@ -4,6 +4,7 @@ from pandas import read_csv
 # accept users name 
 
 name = input("enter your name").upper()
+
 letters_in_name = [letter for letter in name]
 
 data = read_csv("nato_phonetic_alphabet.csv")

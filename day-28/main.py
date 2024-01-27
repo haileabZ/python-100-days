@@ -4,9 +4,6 @@ import time
 from math import floor
 # ---------------------------- CONSTANTS ------------------------------- #
 
-
-
-
 PINK = "#e2979c"
 RED = "#e7305b"
 GREEN = "#9bdeac"

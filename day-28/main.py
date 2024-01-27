@@ -1,3 +1,5 @@
+# counter app
+
 import math
 from tkinter import *
 import time

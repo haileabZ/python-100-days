@@ -1,4 +1,4 @@
-# counter ap
+# Counter app
 
 import math
 from tkinter import *

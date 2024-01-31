@@ -32,7 +32,6 @@ btn1.grid(column=2,row=3)
 
 
 
-
 window.mainloop()
 
 

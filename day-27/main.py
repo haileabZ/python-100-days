@@ -28,7 +28,6 @@ btn1 = tkinter.Button(text="Calculate", command=clicked)
 btn1.grid(column=2,row=3)
 
 
-
 window.mainloop()
 
 

@@ -10,6 +10,7 @@ from random import choice
 
 
 MY_PASSOWRD = "your password"
+# your email or app password
 MY_EMAIL = "abc@gmail.com"
 
 # 1. Update the birthdays.csv

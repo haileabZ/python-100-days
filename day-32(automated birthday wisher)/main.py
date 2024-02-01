@@ -17,6 +17,7 @@ MY_EMAIL = "abc@gmail.com"
 # 2. Check if today matches a birthday in the birthdays.csv
 
 
+
 today = dt.datetime.now()
 year = today.year
 month = today.month

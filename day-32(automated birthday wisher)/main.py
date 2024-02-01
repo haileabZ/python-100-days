@@ -8,9 +8,9 @@ import datetime as dt
 import pandas as pd
 from random import choice
 
-
+# your app password
 MY_PASSOWRD = "your password"
-# your email or app password
+# your email
 MY_EMAIL = "abc@gmail.com"
 
 # 1. Update the birthdays.csv

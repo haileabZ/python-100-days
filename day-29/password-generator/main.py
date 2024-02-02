@@ -49,6 +49,7 @@ def save():
                 website_entry.delete(0, END)
                 password_entry.delete(0, END)
                 email_entry.delete(0, END)
+                
 
 # ---------------------------- UI SETUP ------------------------------- #
 

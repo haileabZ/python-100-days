@@ -28,6 +28,7 @@ class Ball(Turtle):
         self.y_move *= -1
         self.move_speed *= 0.9
 
+    
     def bounce_x(self):
         self.x_move *= -1
 

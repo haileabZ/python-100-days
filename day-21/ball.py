@@ -23,6 +23,7 @@ class Ball(Turtle):
         self.bounce_x()
         self.move_speed = 0.1
 
+    
     def bounce_y(self):
         self.y_move *= -1
         self.move_speed *= 0.9

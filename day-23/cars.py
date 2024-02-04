@@ -3,7 +3,6 @@ from turtle import Turtle
 from random import choice, randint
 
 
-
 class Car(Turtle):
     def __init__(self):
         super().__init__()

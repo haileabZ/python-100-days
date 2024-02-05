@@ -54,8 +54,6 @@ while game_is_on:
         scoreboard.clear()
         scoreboard.dispaly_score()
 
-
-
 screen.exitonclick()
 
 

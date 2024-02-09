@@ -29,7 +29,5 @@ while len(guessed_states) < 51:
         tim.clear()
         tim.write(guess, move=False, align="center", font=("Arial", 8, "normal"))
 
-
-
 screen.exitonclick()
 

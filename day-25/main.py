@@ -3,6 +3,7 @@ from turtle import Screen,Turtle
 import  pandas as pd
 import  time
 
+
 tim = Turtle()
 screen = Screen()
 screen.setup(700, 600)

@@ -2,6 +2,7 @@
 
 
 
+
 bidders= {"names":[],"bid_value":[]}
 values=[]
 names=[]

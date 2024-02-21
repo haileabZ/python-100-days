@@ -4,7 +4,6 @@
 
 
 
-
 import turtle
 from turtle import Screen,Turtle
 import  pandas as pd

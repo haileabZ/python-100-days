@@ -2,7 +2,6 @@
 
 
 
-
 # Counter app
 
 import math

@@ -3,7 +3,6 @@
 
 
 
-
 # Counter app
 
 import math

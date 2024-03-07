@@ -4,8 +4,6 @@
 
 
 
-
-
 # Counter app
 
 import math
